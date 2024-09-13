@@ -2,3 +2,26 @@
   margin: 0px;
   padding: 0px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+header nav {
+  margin-right: 10px;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+header nav ul li {
+  list-style: none;
+  font-weight: 500;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
